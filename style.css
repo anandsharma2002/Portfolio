@@ -12,8 +12,11 @@
 }
 
 :root {
-    --bg-color: #081b29;
-    --second-bg-color: #112e42;
+    --bg-color: #000;
+    /* --bg-color: #081b29; */
+
+    --second-bg-color: #081925;
+    /* --second-bg-color: #112e42; */
     --text-color: #ededed;
     --main-color: #00abf0;
 }
@@ -26,6 +29,7 @@ html {
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
+    
 }
 
 .header {
@@ -88,9 +92,10 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background-color: url('data/my\ pic.png') no-repeat;
-    background-size: cover;
-    background-position: center;
+    /* background-image: url(data/my_pic.png); */
+    background-repeat: no-repeat;
+    background-size: 30rem;
+    background-position: right;
 }
 
 .home-content {
@@ -213,7 +218,7 @@ section {
     bottom: 4rem;
     width: 170px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .home-sci a {
@@ -316,10 +321,10 @@ span {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    border-top: .2rem solid var(--second-bg-color);
-    border-bottom: .2rem solid var(--second-bg-color);
-    border-left: .2rem solid var(--main-color);
-    border-right: .2rem solid var(--main-color);
+    border-top: .17rem solid var(--second-bg-color);
+    border-bottom: .17rem solid var(--second-bg-color);
+    border-left: .17rem solid rgb(255, 255, 255);
+    border-right: .17rem solid rgb(255, 255, 255);
     animation: aboutSpinner 8s linear infinite;
 }
 
@@ -536,10 +541,10 @@ span {
     width: 60%;
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span {
-    width: 15%;
+    width: 75%;
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
-    width: 40%;
+    width: 45%;
 }
 
 
