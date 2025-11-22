@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to bottom right, #121212, #1a1a1a);
+  background-attachment: fixed;
+  color: #fff;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+@media (min-width: 768px) {
+  body {
+    cursor: none;
+  }
+
+  a,
+  button,
+  .cursor-pointer {
+    cursor: none;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1E1E1F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3f3f3f;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffda24;
+}
+
+/* ffda24 */
+
+.mainCard {
+  background-color: #1E1E1F;
+  border: 1px solid #3f3f3f;
+  border-radius: 8px;
+  padding: 20px;
+  position: relative;
+}
+
+hr {
+  border: 1px solid #3f3f3f;
+}
+
+.profileMenu {
+  border: 1px solid white;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 4px;
+
+  border: 1px solid #3f3f3f;
+  border-radius: 0px 8px 0px 8px;
+  border-right: none;
+  border-top: none;
+
+}
+
+
+.internalCard {
+  background-color: #373738;
+  border-radius: 8px;
+}
+
+.profileTitle {
+  font-size: 12px;
+  background-color: #373738;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.introductionContactIcon {
+  background-color: #202022;
+  border-radius: 8px;
+  box-shadow: -1px -1px 0px 0px #3f3f3f;
+  padding: 8px;
+  margin-left: 0px;
+}
